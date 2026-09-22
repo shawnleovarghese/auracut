@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | AuraCut - Pro Video Editor & Camera</title>
+    <meta name="description" content="Official Privacy Policy for AuraCut Pro Video Editor & Camera mobile, desktop, and companion apps. Details on permissions, on-device processing, AdMob, and analytics.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #0B0D10;
+            --bg-card: #14171C;
+            --bg-elevated: #1B1F26;
+            --border-subtle: #262B35;
+            --border-highlight: #3B4252;
+            --text-primary: #F3F4F6;
+            --text-secondary: #9CA3AF;
+            --text-muted: #6B7280;
+            --accent-primary: #1683FF;
+            --accent-cyan: #00AEEF;
+            --accent-green: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-glow: rgba(22, 131, 255, 0.18);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header-bar {
+            background: linear-gradient(180deg, rgba(20, 23, 28, 0.95) 0%, rgba(11, 13, 16, 0.95) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 24px 0;
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-badge {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-primary));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 20px;
+            color: white;
+            box-shadow: 0 4px 14px var(--accent-glow);
+        }
+
+        .brand-title {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .brand-subtitle {
+            font-size: 12px;
+            color: var(--accent-cyan);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: var(--accent-green);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-green);
+        }
+
+        .hero-section {
+            padding: 48px 0 32px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .hero-title {
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #FFFFFF 30%, #A5B4FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .meta-item strong {
+            color: var(--text-primary);
+        }
+
+        .quick-nav {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 20px 24px;
+            margin: 32px 0 48px;
+        }
+
+        .quick-nav-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 14px;
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.15s ease;
+        }
+
+        .nav-links a:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+        .content-section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #E5E7EB;
+            margin: 24px 0 10px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        ul, ol {
+            color: var(--text-secondary);
+            font-size: 15px;
+            padding-left: 24px;
+            margin-bottom: 18px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box {
+            background: rgba(22, 131, 255, 0.08);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 0 10px 10px 0;
+            padding: 18px 20px;
+            margin: 24px 0;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 24px 0;
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            background: var(--bg-card);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            font-weight: 600;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        td {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg-elevated);
+            color: var(--accent-cyan);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 40px 0;
+            margin-top: 64px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .footer a {
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 26px;
+            }
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-bar">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="brand-logo">
+                    <img src="favicon.svg" alt="AuraCut Icon" width="42" height="42" style="border-radius: 10px; box-shadow: 0 4px 14px var(--accent-glow); flex-shrink: 0;">
+                    <div>
+                        <div class="brand-title">AuraCut</div>
+                        <div class="brand-subtitle">Pro Video Editor & Camera</div>
+                    </div>
+                </a>
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    Compliant & Verified (Google Play / App Store)
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
+                <img src="favicon.svg" alt="AuraCut Logo" width="60" height="60" style="border-radius: 14px; box-shadow: 0 8px 24px rgba(22, 131, 255, 0.25);">
+                <div>
+                    <h1 class="hero-title" style="margin-bottom: 4px;">Privacy Policy</h1>
+                    <div style="color: var(--accent-cyan); font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px;">AuraCut Suite & Mobile Applications</div>
+                </div>
+            </div>
+            <div class="hero-meta">
+                <div class="meta-item"><strong>Developer / Organization:</strong> Leos Innotech</div>
+                <div class="meta-item"><strong>Effective Date:</strong> September 22, 2026</div>
+                <div class="meta-item"><strong>Last Updated:</strong> September 22, 2026</div>
+            </div>
+        </section>
+
+        <nav class="quick-nav">
+            <div class="quick-nav-title">Quick Navigation</div>
+            <div class="nav-links">
+                <a href="#philosophy">🛡️ 1. On-Device Sovereignty</a>
+                <a href="#permissions">📱 2. Device Permissions Table</a>
+                <a href="#admob">📊 3. AdMob & Analytics (Third-Party)</a>
+                <a href="#companion">📡 4. Local Network & Companion</a>
+                <a href="#vault">🔐 5. Secret Vault & Encryption</a>
+                <a href="#children">👶 6. Children's Privacy (COPPA)</a>
+                <a href="#rights">⚖️ 7. Your Rights (GDPR / CCPA)</a>
+                <a href="#opt-out">🛑 8. How to Opt-Out of Ads</a>
+                <a href="#contact">✉️ 9. Contact & Support</a>
+            </div>
+        </nav>
+
+        <section id="philosophy" class="content-section">
+            <h2>1. Core Privacy Philosophy: On-Device Sovereignty</h2>
+            <p>Welcome to <strong>AuraCut</strong>. We are committed to protecting your privacy and digital freedom. AuraCut is built from the ground up on a <strong>100% on-device processing</strong> architecture:</p>
+            <ul>
+                <li><strong>No Video/Photo Uploads:</strong> Your raw footage, edited video projects, audio recordings, and rendered exports are processed entirely locally on your device hardware (using OpenGL ES, Metal, ExoPlayer, and AVFoundation). We do not operate remote servers that view, collect, or store your private videos.</li>
+                <li><strong>No Account Required:</strong> You can edit videos, capture pro camera footage, apply color grades, and play media without creating an account or providing your email or phone number.</li>
+                <li><strong>Hardware-Protected Private Vault:</strong> Content placed in your Secret Vault is encrypted locally using AES-256 and protected by device biometric hardware.</li>
+            </ul>
+        </section>
+
+        <section id="permissions" class="content-section">
+            <h2>2. Device Permissions & Why We Need Them</h2>
+            <p>To provide advanced video editing, pro camera shooting, and playback, AuraCut requests standard OS permissions. We only access these features with your explicit authorization:</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose & Functional Justification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>CAMERA</code></td>
+                            <td>Captures 8K/4K/1080p video, RAW/Pro photos in Pro Camera mode, and scans QR codes for Desktop Companion pairing. Video stream is rendered locally in real-time.</td>
+                        </tr>
+                        <tr>
+                            <td><code>RECORD_AUDIO</code></td>
+                            <td>Captures synchronized audio during camera shoots, records voiceovers directly onto timeline audio tracks, and powers the live VU audio meter.</td>
+                        </tr>
+                        <tr>
+                            <td><code>READ_MEDIA_VIDEO / IMAGES / AUDIO</code><br><code>READ_EXTERNAL_STORAGE</code></td>
+                            <td>Allows browsing and importing videos, audio tracks, and photos from your device storage into the timeline editor or media player.</td>
+                        </tr>
+                        <tr>
+                            <td><code>WRITE_EXTERNAL_STORAGE</code></td>
+                            <td>Exports final rendered MP4 video files and thumbnail snapshots into your device gallery or downloads folder.</td>
+                        </tr>
+                        <tr>
+                            <td><code>BODY_SENSORS / GYROSCOPE</code></td>
+                            <td>Calculates real-time orientation telemetry for 360° True Horizon Lock stabilization and horizon leveler guides during recording.</td>
+                        </tr>
+                        <tr>
+                            <td><code>USE_BIOMETRIC / USE_FINGERPRINT</code></td>
+                            <td>Authenticates the owner before decrypting Secret Vault media items. Handled entirely by the OS KeyStore/Secure Enclave; biometric data is never seen by the App.</td>
+                        </tr>
+                        <tr>
+                            <td><code>INTERNET / ACCESS_NETWORK_STATE</code></td>
+                            <td>Fetches third-party advertisements via Google AdMob, plays user-provided IPTV stream links, and checks network connectivity.</td>
+                        </tr>
+                        <tr>
+                            <td><code>ACCESS_WIFI_STATE / MULTICAST</code></td>
+                            <td>Enables zero-configuration local Network Service Discovery (NSD/Bonjour) to connect to your AuraCut Desktop Companion over your local Wi-Fi router.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="admob" class="content-section">
+            <h2>3. Third-Party Services: Google AdMob & Analytics</h2>
+            <p>While your media content is strictly local, AuraCut integrates reputable third-party software development kits (SDKs) to serve advertisements and monitor stability:</p>
+
+            <div class="card">
+                <h3>A. Google AdMob (Google LLC)</h3>
+                <p>We use <strong>Google AdMob</strong> to display banner, interstitial, and rewarded ads. Google AdMob may collect and process:</p>
+                <ul>
+                    <li><strong>Device & Advertising Identifiers:</strong> Google Play Advertising ID (AAID) on Android, IDFA on iOS, IP address, device brand, model, and OS version.</li>
+                    <li><strong>Ad Interaction Telemetry:</strong> Impressions, clicks, video completion rates, and diagnostic data.</li>
+                    <li><strong>Coarse Location:</strong> Derived from IP address to deliver localized advertising.</li>
+                    <li><strong>Consent Management:</strong> In the European Economic Area (EEA), UK, and California, we utilize Google's User Messaging Platform (UMP) CMP to allow users to consent to personalized ads, non-personalized ads, or revoke tracking consent.</li>
+                </ul>
+                <p>Learn more: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> | <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob Privacy Info</a></p>
+            </div>
+
+            <div class="card">
+                <h3>B. Google Analytics for Firebase & Diagnostics (Google LLC)</h3>
+                <p>We use <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong> to monitor app stability, optimize rendering performance, and understand general feature adoption. Google Analytics collects:</p>
+                <ul>
+                    <li><strong>App Interaction & Usage Metrics:</strong> Aggregated screen views, feature interactions (such as export completions, filter usage, pro camera toggles), session duration, and retention metrics.</li>
+                    <li><strong>Device & System Specifications:</strong> Device model, OS version, GPU hardware level, language preference, and anonymous Firebase App Instance IDs.</li>
+                    <li><strong>Crash & Performance Diagnostics:</strong> Stack traces, frame drop rates, memory usage, and freeze diagnostics via Firebase Crashlytics and Google Play Console Vitals.</li>
+                </ul>
+                <p><strong>Privacy Safeguards:</strong> Analytics data is strictly aggregated and anonymized. Google Analytics <strong>never</strong> accesses, inspects, or uploads your personal videos, photos, voiceovers, or project timelines.</p>
+                <p>Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy & Security</a> | <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
+            </div>
+        </section>
+
+        <section id="companion" class="content-section">
+            <h2>4. Local Network Companion & Stream Player</h2>
+            <ul>
+                <li><strong>Desktop Companion Deck:</strong> When using your phone as a jog-wheel or monitor for your desktop video editor, data is sent directly across your local Wi-Fi network using local WebSockets (e.g. <code>ws://192.168.x.x</code>). It never routes through external servers.</li>
+                <li><strong>IPTV Stream Player:</strong> When you input a custom M3U playlist or stream link, AuraCut connects directly to that third-party URL to render video playback. AuraCut does not host or log streaming URLs.</li>
+            </ul>
+        </section>
+
+        <section id="vault" class="content-section">
+            <h2>5. Secret Vault & Data Security</h2>
+            <p>Media stored in the Secret Vault is isolated and encrypted using AES-256 with hardware-backed encryption keys. Biometric authorization occurs via native Android/iOS security prompts. Uninstalling the application or clearing App Data via OS settings will delete all local projects and vault records permanently.</p>
+        </section>
+
+        <section id="children" class="content-section">
+            <h2>6. Children's Privacy (COPPA)</h2>
+            <p>AuraCut is designed for general creators and is not targeted at children under the age of 13 (or 16 in the European Union). We do not knowingly collect personal identifiable information from children.</p>
+        </section>
+
+        <section id="rights" class="content-section">
+            <h2>7. Your Rights (GDPR & CCPA/CPRA)</h2>
+            <p>Under GDPR (EU/UK) and CCPA/CPRA (California):</p>
+            <ul>
+                <li><strong>Right of Access & Deletion:</strong> You have the right to request information on third-party SDK data and request deletion of advertising identifier history.</li>
+                <li><strong>Do Not Sell My Info:</strong> We do not sell your personal data or media. You can opt out of interest-based ads via device settings.</li>
+            </ul>
+        </section>
+
+        <section id="opt-out" class="content-section">
+            <h2>8. How to Opt-Out of Interest-Based Advertising</h2>
+            <p>You can reset or disable your Advertising ID directly in your device settings:</p>
+            <ul>
+                <li><strong>Android:</strong> Go to <strong>Settings</strong> > <strong>Google</strong> > <strong>Ads</strong> (or <strong>Privacy</strong> > <strong>Ads</strong>) and tap <strong>Delete advertising ID</strong> or <strong>Reset advertising ID</strong>.</li>
+                <li><strong>iOS:</strong> Go to <strong>Settings</strong> > <strong>Privacy & Security</strong> > <strong>Tracking</strong> and toggle off <strong>Allow Apps to Request to Track</strong>.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>9. Contact Us & Support</h2>
+            <p>If you have any questions, feedback, or data privacy requests regarding AuraCut, please reach out to us:</p>
+            <div class="card">
+                <p><strong>Developer / Organization:</strong> Leos Innotech</p>
+                <p><strong>Support Email:</strong> <a href="mailto:leosinnotech@gmail.com">leosinnotech@gmail.com</a></p>
+                <p><strong>Public Repository:</strong> <a href="https://github.com/shawnleovarghese/auracut" target="_blank" rel="noopener">github.com/shawnleovarghese/auracut</a></p>
+                <p><strong>Public Privacy URL:</strong> <a href="https://shawnleovarghese.github.io/auracut/privacy-policy.html" target="_blank" rel="noopener">shawnleovarghese.github.io/auracut/privacy-policy.html</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AuraCut. Developed by Leos Innotech. All rights reserved.</p>
+            <p style="margin-top: 8px;"><a href="#philosophy">Back to top</a> &bull; <a href="https://github.com/shawnleovarghese/auracut">Public Repository</a> &bull; <a href="mailto:leosinnotech@gmail.com">Contact Us</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
