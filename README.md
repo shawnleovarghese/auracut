@@ -1,6 +1,6 @@
 # AuraCut Official Documentation & Legal Portal
 
-Welcome to the official public documentation and compliance portal for **AuraCut** (Next-Generation Studio Video Editor & Camera Suite).
+Welcome to the official public documentation and compliance portal for **AuraCut** (Multipurpose Complete Creator Kit: Shoot, Edit, Preview, Live).
 
 - 📜 **Privacy Policy**: [https://shawnleovarghese.github.io/auracut/privacy-policy.html](https://shawnleovarghese.github.io/auracut/privacy-policy.html)
 - 🌐 **Web Portal**: [https://shawnleovarghese.github.io/auracut/](https://shawnleovarghese.github.io/auracut/)

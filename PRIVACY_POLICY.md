@@ -1,4 +1,4 @@
-# Privacy Policy for AuraCut - Video Editor & Pro Camera
+# Privacy Policy for AuraCut — Multipurpose Complete Creator Kit (Shoot, Edit, Preview, Live)
 
 **Last Updated:** September 22, 2026  
 **Effective Date:** September 22, 2026  
