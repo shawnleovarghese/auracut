@@ -443,8 +443,15 @@
             </div>
 
             <div class="card">
-                <h3>B. Diagnostic & Performance Telemetry</h3>
-                <p>AuraCut may use standard Google Play Console Vitals and Firebase Crashlytics to monitor crash rates, memory leaks, and GPU frame drops. All diagnostic reports are anonymous and contain no user media or identifiable information.</p>
+                <h3>B. Google Analytics for Firebase & Diagnostics (Google LLC)</h3>
+                <p>We use <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong> to monitor app stability, optimize rendering performance, and understand general feature adoption. Google Analytics collects:</p>
+                <ul>
+                    <li><strong>App Interaction & Usage Metrics:</strong> Aggregated screen views, feature interactions (such as export completions, filter usage, pro camera toggles), session duration, and retention metrics.</li>
+                    <li><strong>Device & System Specifications:</strong> Device model, OS version, GPU hardware level, language preference, and anonymous Firebase App Instance IDs.</li>
+                    <li><strong>Crash & Performance Diagnostics:</strong> Stack traces, frame drop rates, memory usage, and freeze diagnostics via Firebase Crashlytics and Google Play Console Vitals.</li>
+                </ul>
+                <p><strong>Privacy Safeguards:</strong> Analytics data is strictly aggregated and anonymized. Google Analytics <strong>never</strong> accesses, inspects, or uploads your personal videos, photos, voiceovers, or project timelines.</p>
+                <p>Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy & Security</a> | <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
             </div>
         </section>
 

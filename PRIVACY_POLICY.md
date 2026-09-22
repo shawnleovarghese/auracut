@@ -52,11 +52,17 @@ For more details on how Google processes ad data, please review:
 * [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites)
 * [Google AdMob Data & Privacy](https://support.google.com/admob/answer/6128543)
 
-### B. Google Play Services & Diagnostic Analytics
-AuraCut may utilize standard Google Play Services diagnostics and anonymous crash telemetry (such as Firebase Crashlytics / Google Play Console Vitals) to:
-* Detect and diagnose app crashes, memory pressure, and rendering freezes.
-* Analyze aggregate, non-personally identifiable metrics (such as active OS version distribution and GPU compatibility).
-* Ensure optimal hardware acceleration support across diverse Android and iOS hardware configurations.
+### B. Google Analytics for Firebase & App Analytics (Google LLC)
+AuraCut uses **Google Analytics for Firebase (Google Analytics)** to understand app performance, stability, and aggregate user engagement patterns. Google Analytics collects:
+* **Usage & Engagement Data:** Screen views, navigation paths, session duration, feature utilization (e.g., timeline export completed, filter applied, camera mode switched), and retention statistics.
+* **Technical Device Data:** Device brand, model, operating system version, language settings, screen resolution, and anonymous Firebase App Instance IDs.
+* **Diagnostic & Stability Telemetry:** App launch times, memory usage, rendering performance, and crash stack traces via Firebase Crashlytics & Google Play Console Vitals.
+
+**Purpose & Protection:**
+* All analytics data is processed in an **anonymized and aggregated form**.
+* Analytics data is used exclusively to optimize rendering speed, resolve device-specific bugs, and improve user experience across diverse Android and iOS devices.
+* Google Analytics **never** accesses, reads, analyzes, or uploads your personal video files, photos, audio recordings, or project content.
+* For more information, please refer to the [Firebase Privacy & Security Documentation](https://firebase.google.com/support/privacy) and [Google Privacy Policy](https://policies.google.com/privacy).
 
 ---
 
