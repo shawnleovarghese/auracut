@@ -3,7 +3,7 @@
 **Last Updated:** September 22, 2026  
 **Effective Date:** September 22, 2026  
 
-Welcome to **AuraCut** ("AuraCut", "the App", "we", "us", or "our"), developed by Shawn Leo Varghese. We are deeply committed to protecting your privacy, data security, and digital sovereignty. This Privacy Policy explains how AuraCut handles, accesses, processes, and protects your information when you use our mobile applications (Android and iOS), desktop application, and companion tools.
+Welcome to **AuraCut** ("AuraCut", "the App", "we", "us", or "our"), developed by **Leos Innotech**. We are deeply committed to protecting your privacy, data security, and digital sovereignty. This Privacy Policy explains how AuraCut handles, accesses, processes, and protects your information when you use our mobile applications (Android and iOS), desktop application, and companion tools.
 
 Please read this Privacy Policy carefully. By downloading, accessing, or using AuraCut, you agree to the collection and use of information in accordance with this policy.
 
@@ -120,7 +120,7 @@ We may update our Privacy Policy periodically to reflect new features, app updat
 
 If you have any questions, concerns, feedback, or data deletion inquiries regarding this Privacy Policy, please contact us at:
 
-* **Developer:** Shawn Leo Varghese (AuraCut Development Team)
-* **Email:** [shawnleovarghese@gmail.com](mailto:shawnleovarghese@gmail.com)
-* **Project Repository:** [https://github.com/shawnleovarghese/video-editor](https://github.com/shawnleovarghese/video-editor)
-* **Official Website:** [https://shawnleovarghese.github.io/video-editor/](https://shawnleovarghese.github.io/video-editor/)
+* **Developer / Organization:** Leos Innotech (AuraCut Team)
+* **Email:** [leosinnotech@gmail.com](mailto:leosinnotech@gmail.com)
+* **Public Repository:** [https://github.com/shawnleovarghese/auracut](https://github.com/shawnleovarghese/auracut)
+* **Official Privacy Policy Portal:** [https://shawnleovarghese.github.io/auracut/privacy-policy.html](https://shawnleovarghese.github.io/auracut/privacy-policy.html)
